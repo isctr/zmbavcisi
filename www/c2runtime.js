@@ -36374,16 +36374,16 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Browser,
 	cr.plugins_.Audio,
-	cr.plugins_.CordovaAdmobFree,
+	cr.plugins_.Browser,
 	cr.plugins_.Keyboard,
+	cr.plugins_.CordovaAdmobFree,
 	cr.plugins_.Mouse,
-	cr.plugins_.Touch,
 	cr.plugins_.Sprite,
-	cr.plugins_.Spritefont2,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Touch,
 	cr.plugins_.WebStorage,
+	cr.plugins_.Spritefont2,
 	cr.behaviors.Rotate,
 	cr.behaviors.Fade,
 	cr.behaviors.Sin,
